@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #fcf9f9;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #999;
+}
+
+.card {
+  background: #fff;
+  padding: 20px 30px;
+  border: 2px solid #eee;
+  margin: 5px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+form:is:empty input[type=submit] {
+  cursor: not-allowed;
+  background: rgba(23, 157, 197, 0);
+}
+
+input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+input:focus, input:active {
+  border: none;
+}
+
+#username, #password, #fullName, #credential {
+  color: #777;
+  background: rgba(239, 239, 239, 0.4235294118);
+  border: 1px solid #ddd;
+  font-weight: 500;
+  text-align: left;
+}
+
+input[type=submit] {
+  background: #179dc5;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.or {
+  font-size: 12px;
+  padding: 10px;
+  margin: 20px 0 5px;
+  position: relative;
+  width: 100%;
+}
+.or::after, .or::before {
+  content: " ";
+  height: 1px;
+  width: 42%;
+  background: #ccc;
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+}
+.or::before {
+  left: 0;
+}
+.or::after {
+  right: 0;
+}
+
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: none;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  color: #aaa;
+  font-weight: 600;
+}
+footer div a {
+  color: #555;
+}
+footer div select {
+  margin-right: 10px;
+  border: none;
+  background: none;
+  color: #aaa;
+  font-weight: 600;
+}/*# sourceMappingURL=dm.css.map */
